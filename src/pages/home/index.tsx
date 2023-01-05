@@ -4,6 +4,7 @@ import Image from 'next/image'
 import previewImg from '../../assets/previewImg.png'
 import { ClaimUserNameForm } from './components/ClaimUserNameForm'
 export default function Home() {
+  console.log('testing commit')
   return (
     <Container>
       <Hero>
